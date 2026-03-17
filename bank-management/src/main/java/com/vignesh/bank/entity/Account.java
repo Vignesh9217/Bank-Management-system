@@ -1,10 +1,8 @@
 package com.vignesh.bank.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 
 @Entity
-@Data
 public class Account {
 
     @Id
@@ -13,4 +11,34 @@ public class Account {
 
     private String accountHolderName;
     private Double balance;
+
+    // Getter for id
+    public Long getId() {
+        return id;
+    }
+
+    // Setter for id
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    // Getter for accountHolderName
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    // Setter for accountHolderName
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
+    }
+
+    // Getter for balance
+    public Double getBalance() {
+        return balance;
+    }
+
+    // Setter for balance
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
 }

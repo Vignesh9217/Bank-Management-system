@@ -8,6 +8,7 @@ import com.vignesh.bank.service.AccountService;
 
 @RestController
 @RequestMapping("/api/accounts")
+@CrossOrigin(origins = "*")
 public class AccountController {
 
     @Autowired
