@@ -8,7 +8,7 @@ import com.vignesh.bank.service.AccountService;
 
 @RestController
 @RequestMapping("/api/accounts")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://bank-management-system-kappa.vercel.app")
 public class AccountController {
 
     @Autowired

@@ -8,7 +8,7 @@ import com.vignesh.bank.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://bank-management-system-kappa.vercel.app")
 public class UserController {
 
     @Autowired

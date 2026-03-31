@@ -9,7 +9,7 @@ import com.vignesh.bank.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://bank-management-system-kappa.vercel.app")
 public class AuthController {
 
     @Autowired
